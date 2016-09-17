@@ -14,7 +14,7 @@ ENABLE_REMAPPING=True
 etc...,
 Generated sysconfig.h
 
-'#define BUILD_CORE_COMP    (1)'
+\#define BUILD_CORE_COMP    (1)
 #define CREATE_DEBUG_BUILD    (0)
 #define USE_LOCAL_ALLOC    (1)
 #define ENABLE_VM    (0)
