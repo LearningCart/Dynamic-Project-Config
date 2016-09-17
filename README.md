@@ -1,12 +1,9 @@
 #Dynamic-Project-Config
 ========================================
-This project will allow the large software (C/C++)
-
-project configuration through the means of text configuration file.
+This project will allow the large C/C++ based software project configuration through the text configuration file.
 
 e.g.,
-Project confugration text file:
-"Project.conf"
+Project confugration text file:  "Project.conf"
 
 BUILD_CORE_COMP=TRUE
 
@@ -32,7 +29,8 @@ Generates system configuration file "sysconfig.h" as below.
 
 \#define ENABLE_REMAPPING    (1)
 
-How to use in the code?
+#How to use in the code?
+
 \#define	ENABLED	(1)
 
 C/C++ soruce code:
@@ -46,7 +44,7 @@ C/C++ soruce code:
 
 
 
-TODO/FIXME/Future Enhancement:
+#TODO/FIXME/Future Enhancement:
 =================================
 1)  multiple = sign not supoorted
 
