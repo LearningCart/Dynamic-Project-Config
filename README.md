@@ -1,6 +1,7 @@
 #Dynamic-Project-Config
 ========================================
-This project will allow the large software (C/C++) 
+This project will allow the large software (C/C++)
+
 configuration through the means of text configuration file.
 
 e.g.,
@@ -8,18 +9,26 @@ Project confugration text file:
 "Project.conf"
 
 BUILD_CORE_COMP=TRUE
+
 CREATE_DEBUG_BUILD=false
+
 USE_LOCAL_ALLOC=true
+
 ENABLE_VM=false
+
 ENABLE_REMAPPING=True
 
 etc...,
 Generated sysconfig.h
 
 \#define BUILD_CORE_COMP    (1)
+
 \#define CREATE_DEBUG_BUILD    (0)
+
 \#define USE_LOCAL_ALLOC    (1)
+
 \#define ENABLE_VM    (0)
+
 \#define ENABLE_REMAPPING    (1)
 
 How to use in the code?
@@ -28,8 +37,11 @@ How to use in the code?
 C/C++ soruce code:
 
 \#if (BUILD_CORE_COMP == ENABLED)
+
     printf("BUILD_CORE_COMP is defined we can enable code which does this feature\n");
+
 \#endif
+
 
 
 
@@ -48,3 +60,4 @@ TODO/FIXME/Future Enhancement:
 6) Comments are not supported yet.
 
 7) One level of indirection can be added., e.g., file can say which config file to be used.., but not sure of use-case.
+
