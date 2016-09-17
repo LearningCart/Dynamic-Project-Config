@@ -33,9 +33,12 @@ C/C++ soruce code:
 
 TODO/FIXME/Feature enhancement:
 =================================
-1)  multiple = sign not supoorted\n
+1)  multiple = sign not supoorted
+
 2) Trimming of macro not supported yet., e.g, if it is defined as "    ENABLE_CORE_COMP" it will remain as it is in sysconf.h file.\n
+
 3) Converting LHS value(macro name) to upper case is not yet supported.\n
+
 4) Spaces or tabs between word are not supported yet., this will bhe cool.., instead of ENABLE_CORE_COMP, we will be able to write enable  "enable _core   _comp" and it sould generate same macro.\n
 5) Spell correction is not added e.g., "true" is not "ture"..,\n
 6) Comments are not supported yet.\n
