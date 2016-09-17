@@ -13,12 +13,13 @@ ENABLE_REMAPPING=True
 
 etc...,
 Generated sysconfig.h
+"
 #define BUILD_CORE_COMP    (1)
 #define CREATE_DEBUG_BUILD    (0)
 #define USE_LOCAL_ALLOC    (1)
 #define ENABLE_VM    (0)
 #define ENABLE_REMAPPING    (1)
-
+"
 How to use in the code?
 #define	ENABLED	(1)
 
