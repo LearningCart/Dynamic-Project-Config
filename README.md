@@ -19,7 +19,8 @@ ENABLE_VM=false
 ENABLE_REMAPPING=True
 
 etc...,
-Generated sysconfig.h
+Generates system configuration file "sysconfig.h" as below.
+
 
 \#define BUILD_CORE_COMP    (1)
 
