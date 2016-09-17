@@ -2,7 +2,7 @@
 ========================================
 This project will allow the large software (C/C++)
 
-configuration through the means of text configuration file.
+project configuration through the means of text configuration file.
 
 e.g.,
 Project confugration text file:
